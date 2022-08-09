@@ -1,0 +1,189 @@
+.landing {
+  font-size: 2rem;
+}
+
+.landingImg {
+  height: 100vh;
+  width: 100vw;
+  position: relative;
+}
+
+.weather_num {
+  font-size: 4rem;
+  position: absolute;
+  bottom: 100px;
+  left: 90px;
+  color: #fff;
+  font-family: 'Raleway', sans-serif;
+}
+
+.weather_round {
+  position: absolute;
+  width: 10px;
+  height: 10px;
+}
+
+.weather_city {
+  font-size: 3rem;
+  position: absolute;
+  bottom: 110px;
+  left: 180px;
+  color: #fff;
+  font-family: 'Raleway', sans-serif;
+}
+
+.weather_day {
+  font-size: 1rem;
+  position: absolute;
+  bottom: 90px;
+  left: 180px;
+  color: #fff;
+  font-family: 'Raleway', sans-serif;
+}
+
+.weather_time {
+  font-size: 1rem;
+  position: absolute;
+  bottom: 90px;
+  left: 260px;
+  color: #fff;
+  font-family: 'Raleway', sans-serif;
+}
+
+.weather_mid {
+  font-size: 1.5rem;
+  position: absolute;
+  bottom: 85px;
+  left: 245px;
+  color: #fff;
+  font-family: 'Raleway', sans-serif;
+}
+
+.weather_icon {
+  position: absolute;
+  bottom: 140px;
+  left: 470px;
+}
+
+.weather_cond {
+  font-size: 1.5rem;
+  position: absolute;
+  bottom: 85px;
+  left: 470px;
+  color: #fff;
+  font-family: 'Raleway', sans-serif;
+}
+
+.weather_left {
+  position: absolute;
+  background-color: rgba(0, 0, 0, 0.5);
+  backdrop-filter: blur(30px);
+  width: 30vw;
+  height: 100vh;
+  right: 0;
+}
+
+.weather_sear {
+  font-size: 20px;
+  padding-bottom: 5px;
+  position: absolute;
+  width: 230px;
+  background-color: transparent;
+  border: none;
+  border-bottom: 0.5px solid rgb(207, 206, 206);
+  right: 100px;
+  top: 60px;
+  color: #fff;
+  font-family: 'Raleway', sans-serif;
+}
+
+.weather_sear:focus {
+  font-family: 'Raleway', sans-serif;
+  background-color: transparent;
+  font-size: 20px;
+  outline: none;
+}
+
+.weather_sear::placeholder {
+  font-family: 'Raleway', sans-serif;
+  font-size: 15px;
+  color: rgba(255, 255, 255, 0.596);
+}
+
+.weather_searBack {
+  position: absolute;
+  width: 70px;
+  height: 70px;
+  background-color: rgb(214, 108, 5);
+  top: 0;
+  right: 0;
+}
+
+.weather_searIcon {
+  position: absolute;
+  font-size: 25px;
+  right: 20px;
+  top: 20px;
+}
+
+.weather_details {
+  position: absolute;
+  color: #fff;
+  font-size: 18px;
+  right: 200px;
+  top: 120px;
+  font-family: 'Raleway', sans-serif;
+  font-weight: bolder;
+}
+
+.weather_det {
+  position: absolute;
+  right: 275px;
+  top: 190px;
+  font-size: 16px;
+  color: rgb(207, 206, 206);
+  font-family: 'Raleway', sans-serif;
+}
+.weather_detCloud {
+  position: absolute;
+  right: 50px;
+  top: 190px;
+  font-size: 16px;
+  color: #fff;
+  font-family: 'Raleway', sans-serif;
+}
+.weather_detail {
+  position: absolute;
+  right: 260px;
+  top: 260px;
+  font-size: 16px;
+  color: rgb(207, 206, 206);
+  font-family: 'Raleway', sans-serif;
+}
+
+.weather_detHum {
+  position: absolute;
+  right: 50px;
+  top: 260px;
+  font-size: 16px;
+  color: #fff;
+  font-family: 'Raleway', sans-serif;
+}
+
+.weather_detailsW {
+  position: absolute;
+  right: 285px;
+  top: 340px;
+  font-size: 16px;
+  color: rgb(207, 206, 206);
+  font-family: 'Raleway', sans-serif;
+}
+
+.weather_detWind {
+  position: absolute;
+  right: 50px;
+  top: 340px;
+  font-size: 16px;
+  color: #fff;
+  font-family: 'Raleway', sans-serif;
+}
